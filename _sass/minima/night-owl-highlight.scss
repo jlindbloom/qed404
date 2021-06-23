@@ -2,7 +2,7 @@
 // If you wish to override any of this CSS, do so in _sass/minima/custom-styles.css
  
 //$dt-gray-dark: #282a36;  // Background
-$dt-gray-dark: #282a36;  // Background (CHANGED)
+$dt-gray-dark: #011627;  // Background (CHANGED)
 
 $dt-code-cell-background: #323443;
 $dt-gray: #44475a;       // Current Line & Selection
@@ -16,6 +16,25 @@ $dt-purple: #bd93f9;
 $dt-red: #ff5555;
 $dt-yellow: #f1fa8c;
 $dt-green-light: rgb(172, 229, 145);
+
+/*   THESE ARE MY NEW COLOR DEFINITIONS BELOW            */
+
+
+$python-constant: #f78c6c;
+$python-string: #ecc48d;
+$python-err-except: #80c778;
+$python-p: #66d9ef;
+$python-comment: #637777;
+$python-class: #529691;
+$python-funcs: #82aaff;
+$python-kw: #7Fdbbf;
+$python-literal: #f78c6c;
+
+
+
+
+/* END NEW COLOR DEFINITIONS */
+
 
 .language-python + .language-plaintext {
     border-left: 1px solid grey;
@@ -82,151 +101,150 @@ $dt-green-light: rgb(172, 229, 145);
      font-size: 110%;
     }
    
-    
 
 
 
+    // STRINGS
+    .hll,
+    .sb,
+    .sc,
+    .dl,  
+    .sd,   
+    .s2, 
+    .se,  
+    .sh,  
+    .si,  
+    .sx,  
+    .sr, 
+    .s1,  
+    .ss {
+          color : $python-string;
+    }   
 
+    // Generic output
+    .go {
+          color: $dt-gray;
+    }
 
-
-
-
-
-//     .hll,
-//     .s,
-//     .sa,
-//     .sb,
-//     .sc,
-//     .dl,
-//     .sd,
-//     .s2,
-//     .se,
-//     .sh,
-//     .si,
-//     .sx,
-//     .sr,
-//     .s1,
-//     .ss {
-//          color:rgb(231, 153, 122);
-//     }
-  
-//     .go {
-//       color: $dt-gray;
-//     }
-  
-//     .err,
-//     .g,
-//     .l,
-//     .n,
-//     .x,
-//     .ge,
-//     .gr,
-//     .gh,
-//     .gi,
-//     .gp,
-//     .gs,
-//     .gu,
-//     .gt,
-//     .ld,
-//     .no,
-//     .nd,
-//     .pi,
-//     .ni,
-//     .ne,
-//     .nn,
-//     .nx,
-//     .py,
-//     .w,
-//     .bp {
-//       color: $dt-gray-light;
-//       background-color: $dt-code-cell-background !important;
-//     }
+    // Errors/Exceptions Others
+    .err,
+    .g,
+    .l,
+    .n,
+    .x,
+    .ge,
+    .gr,
+    .gh,
+    .gi,
+    .gp,
+    .gs,
+    .gu,
+    .gt,
+    .ld,
+    .no,
+    .nd,
+    .pi,
+    .ni,
+    .ne,
+    .nn,
+    .nx,
+    .py,
+    .w,
+    .bp {
+      // color: $dt-gray-light;
+      // background-color: $dt-code-cell-background !important;
+        color: $python-err-except;
+        background-color: $dt-code-cell-background !important;
+    }
  
-//     .p {
-//          font-weight: bold;
-//          color: rgb(102, 217, 239);
-//  }
+    .p {
+         font-weight: bold;
+         color: $python-p;
+    }
   
-//     .ge {
-//       text-decoration: underline;
-//     }
+    .ge {
+      text-decoration: underline;
+    }
   
-//     .bp {
-//       font-style: italic;
-//     }
+    .bp {
+      font-style: italic;
+    }
   
-//     .c,
-//     .ch,
-//     .cm,
-//     .cpf,
-//     .cs {
-//       color: $dt-blue;
-//     }
+    .c,
+    .ch,
+    .cm,
+    .cpf,
+    .cs {
+      color: $python-comment;
+    }
 
-//     .c1 {
-//       color: gray;
-//     }
+    .c1 {
+      color: $python-comment;
+    }
   
-//     .kd,
-//     .kt,
-//     .nb,
-//     .nl,
-//     .nv,
-//     .vc,
-//     .vg,
-//     .vi,
-//     .vm {
-//       color: $dt-cyan;
-//     }
+    // I think this one has too many lumped together.
+
+    .kd,
+    .kt,
+    .nb,
+    .nl,
+    .nv,
+    .vc,
+    .vg,
+    .vi,
+    .vm {
+      color: $python-class;
+    }
   
-//     .kd,
-//     .nb,
-//     .nl,
-//     .nv,
-//     .vc,
-//     .vg,
-//     .vi,
-//     .vm {
-//       font-style: italic;
-//     }
+    .kd,
+    .nb,
+    .nl,
+    .nv,
+    .vc,
+    .vg,
+    .vi,
+    .vm {
+      font-style: italic;
+    }
   
-//     .fm,
-//     .na,
-//     .nc,
-//     .nf
-//      {
-//       color: $dt-green-light;
-//     }
+    .fm,
+    .na,
+    .nc,
+    .nf
+     {
+      color: $python-funcs;
+    }
   
-//     .k,
-//     .o,
-//     .cp,
-//     .kc,
-//     .kn,
-//     .kp,
-//     .kr,
-//     .nt,
-//     .ow {
-//       color: $dt-pink;
-//     }
+    .k,
+    .o,
+    .cp,
+    .kc,
+    .kn,
+    .kp,
+    .kr,
+    .nt,
+    .ow {
+      color: $python-kw;
+    }
  
-//     .kc {
-//          color: $dt-green-light;   
-//     }
+    // .kc {
+    //      color: $dt-green-light;   
+    // }
   
-//     .m,
-//     .mb,
-//     .mf,
-//     .mh,
-//     .mi,
-//     .mo,
-//     .il {
-//       color: $dt-purple;
-//     }
+    .m,
+    .mb,
+    .mf,
+    .mh,
+    .mi,
+    .mo,
+    .il {
+      color: $python-literal;
+    }
   
-//     .gd {
-//       color: $dt-red;
-//     }
+    .gd {
+      color: $dt-red;
+    }
+
 }
 
 p code{
