@@ -82,141 +82,151 @@ $dt-green-light: rgb(172, 229, 145);
      font-size: 110%;
     }
    
-    .hll,
-    .s,
-    .sa,
-    .sb,
-    .sc,
-    .dl,
-    .sd,
-    .s2,
-    .se,
-    .sh,
-    .si,
-    .sx,
-    .sr,
-    .s1,
-    .ss {
-         color:rgb(231, 153, 122);
-    }
-  
-    .go {
-      color: $dt-gray;
-    }
-  
-    .err,
-    .g,
-    .l,
-    .n,
-    .x,
-    .ge,
-    .gr,
-    .gh,
-    .gi,
-    .gp,
-    .gs,
-    .gu,
-    .gt,
-    .ld,
-    .no,
-    .nd,
-    .pi,
-    .ni,
-    .ne,
-    .nn,
-    .nx,
-    .py,
-    .w,
-    .bp {
-      color: $dt-gray-light;
-      background-color: $dt-code-cell-background !important;
-    }
- 
-    .p {
-         font-weight: bold;
-         color: rgb(102, 217, 239);
- }
-  
-    .ge {
-      text-decoration: underline;
-    }
-  
-    .bp {
-      font-style: italic;
-    }
-  
-    .c,
-    .ch,
-    .cm,
-    .cpf,
-    .cs {
-      color: $dt-blue;
-    }
+    
 
-    .c1 {
-      color: gray;
-    }
+
+
+
+
+
+
+
+
+//     .hll,
+//     .s,
+//     .sa,
+//     .sb,
+//     .sc,
+//     .dl,
+//     .sd,
+//     .s2,
+//     .se,
+//     .sh,
+//     .si,
+//     .sx,
+//     .sr,
+//     .s1,
+//     .ss {
+//          color:rgb(231, 153, 122);
+//     }
   
-    .kd,
-    .kt,
-    .nb,
-    .nl,
-    .nv,
-    .vc,
-    .vg,
-    .vi,
-    .vm {
-      color: $dt-cyan;
-    }
+//     .go {
+//       color: $dt-gray;
+//     }
   
-    .kd,
-    .nb,
-    .nl,
-    .nv,
-    .vc,
-    .vg,
-    .vi,
-    .vm {
-      font-style: italic;
-    }
-  
-    .fm,
-    .na,
-    .nc,
-    .nf
-     {
-      color: $dt-green-light;
-    }
-  
-    .k,
-    .o,
-    .cp,
-    .kc,
-    .kn,
-    .kp,
-    .kr,
-    .nt,
-    .ow {
-      color: $dt-pink;
-    }
+//     .err,
+//     .g,
+//     .l,
+//     .n,
+//     .x,
+//     .ge,
+//     .gr,
+//     .gh,
+//     .gi,
+//     .gp,
+//     .gs,
+//     .gu,
+//     .gt,
+//     .ld,
+//     .no,
+//     .nd,
+//     .pi,
+//     .ni,
+//     .ne,
+//     .nn,
+//     .nx,
+//     .py,
+//     .w,
+//     .bp {
+//       color: $dt-gray-light;
+//       background-color: $dt-code-cell-background !important;
+//     }
  
-    .kc {
-         color: $dt-green-light;   
-    }
+//     .p {
+//          font-weight: bold;
+//          color: rgb(102, 217, 239);
+//  }
   
-    .m,
-    .mb,
-    .mf,
-    .mh,
-    .mi,
-    .mo,
-    .il {
-      color: $dt-purple;
-    }
+//     .ge {
+//       text-decoration: underline;
+//     }
   
-    .gd {
-      color: $dt-red;
-    }
+//     .bp {
+//       font-style: italic;
+//     }
+  
+//     .c,
+//     .ch,
+//     .cm,
+//     .cpf,
+//     .cs {
+//       color: $dt-blue;
+//     }
+
+//     .c1 {
+//       color: gray;
+//     }
+  
+//     .kd,
+//     .kt,
+//     .nb,
+//     .nl,
+//     .nv,
+//     .vc,
+//     .vg,
+//     .vi,
+//     .vm {
+//       color: $dt-cyan;
+//     }
+  
+//     .kd,
+//     .nb,
+//     .nl,
+//     .nv,
+//     .vc,
+//     .vg,
+//     .vi,
+//     .vm {
+//       font-style: italic;
+//     }
+  
+//     .fm,
+//     .na,
+//     .nc,
+//     .nf
+//      {
+//       color: $dt-green-light;
+//     }
+  
+//     .k,
+//     .o,
+//     .cp,
+//     .kc,
+//     .kn,
+//     .kp,
+//     .kr,
+//     .nt,
+//     .ow {
+//       color: $dt-pink;
+//     }
+ 
+//     .kc {
+//          color: $dt-green-light;   
+//     }
+  
+//     .m,
+//     .mb,
+//     .mf,
+//     .mh,
+//     .mi,
+//     .mo,
+//     .il {
+//       color: $dt-purple;
+//     }
+  
+//     .gd {
+//       color: $dt-red;
+//     }
 }
 
 p code{
