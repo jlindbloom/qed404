@@ -425,7 +425,15 @@ pre code { font-size: 15px !important; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
-html, body, input, textarea, select, button { color: rgba(255, 255, 255, 0.87) !important; background-color: #011627 !important; }
+html, body, input, textarea, select, button { color: rgba(255, 255, 255, 0.87) !important; background-color: #0B253A !important; }
+
+a { color: #4bbaff !important; }
+
+a:hover { color: rgba(255, 255, 255, 0.87) !important; }
+
+.site-title, .site-title:visited, .site-nav, .page-link { color: rgba(255, 255, 255, 0.87) !important; }
+
+.site-nav { background-color: #0B253A; border-color: #2d4456; }
 
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
 
