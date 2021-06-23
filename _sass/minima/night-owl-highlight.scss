@@ -4,10 +4,19 @@
 //$dt-gray-dark: #282a36;  // Background
 $dt-gray-dark: #011627;  // Background (CHANGED)
 
-$dt-code-cell-background: #323443;
+
+$dt-code-cell-background: #011627;
 $dt-gray: #44475a;       // Current Line & Selection
 $dt-gray-light: #f8f8f2; // Foreground
 $dt-blue: #6272a4;       // Comment
+
+// Original of the above chunk
+// $dt-code-cell-background: #323443;
+// $dt-gray: #44475a;       // Current Line & Selection
+// $dt-gray-light: #f8f8f2; // Foreground
+// $dt-blue: #6272a4;       // Comment
+
+
 $dt-cyan: #8be9fd;  
 $dt-green: #50fa7b;
 $dt-orange: #ffb86c;
@@ -22,7 +31,8 @@ $dt-green-light: rgb(172, 229, 145);
 
 $python-constant: #f78c6c;
 $python-string: #ecc48d;
-$python-err-except: #80c778;
+//$python-err-except: #80c778;
+$python-err-except: #d7dbe0;
 $python-p: #66d9ef;
 $python-comment: #637777;
 $python-class: #529691;
@@ -58,7 +68,8 @@ $python-literal: #f78c6c;
     margin-top:1.5rem !important;
     padding-bottom:0 !important;
     padding-top:0 !important;
-    background: #323443 !important;
+    //background: #323443 !important;
+    background: $dt-code-cell-background !important;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-family: Menlo, Monaco, Consolas, "Lucida Console", Roboto, Ubuntu, monospace;
