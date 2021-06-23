@@ -1,16 +1,39 @@
 
 // Color definitions
-$base-bg-color : #011627;
+$base-bg-color : #0B253A;
 
 $high-emph: rgba(white, 0.87);
 $med-emph: rgba(white, 0.69); 
 $low-emph: rgba(white, 0.38);
 
+$overlay: mix($base-bg-color, white, 95%);
+$overlay-light: mix($base-bg-color, white, 86%);
 
+// Background
 html, body, input, textarea, select, button {   
     color: $high-emph !important;
     background-color: $base-bg-color !important;
   }
+
+// Controls hyperlinks I think?
+a {
+    color: rgb(75, 186, 255) !important;
+}
+
+a:hover {
+    color:$high-emph !important;
+}
+
+
+// Navbar colors
+.site-title, .site-title:visited, .site-nav, .page-link {
+    color: $high-emph !important;
+}
+
+.site-nav {
+    background-color: $base-bg-color;
+    border-color: $overlay-light;
+}
 
 
 
