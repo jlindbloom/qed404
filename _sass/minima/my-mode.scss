@@ -2,10 +2,17 @@
 // $light-blue: #3694a1
 
 $header-bg-color : #003c73;
+$header-txt-color : 
 
 .site-header {
     background-color: $header-bg-color;
+    
 }
+
+.site-title, .site-title:visited, .site-nav, .page-link {
+    color: $header-txt-color !important;
+}
+
 
 // .site-nav {
 //     background-color: $light-blue;
