@@ -67,7 +67,7 @@ pre, code {
 }
 
 .btn:hover {
-    background-color: $dark-grey !important;
+    background-color: $base-bg-color !important;
 }
 
 table th{
@@ -77,13 +77,13 @@ table th{
 }
 
 table td{
-    background-color: $dark-grey;
+    background-color: $base-bg-color;
     border-color: $overlay-light;
     color: $med-emph;
 }
 
 .flash {
-    color: $dark-grey !important;
+    color: $base-bg-color !important;
     filter: brightness(80%);
 }
 
