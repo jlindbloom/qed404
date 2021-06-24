@@ -431,8 +431,6 @@ a { color: #4bbaff !important; }
 
 a:hover { color: rgba(255, 255, 255, 0.9) !important; }
 
-.post-content p, .post-content li { font-size: 20px; color: rgba(255, 255, 255, 0.9); }
-
 .site-title, .site-title:visited, .site-nav, .page-link { color: rgba(255, 255, 255, 0.9) !important; }
 
 .site-nav { background-color: #010E1A; border-color: #25303a; }
@@ -445,7 +443,7 @@ pre, code { border-color: #25303a; background-color: #0e1a25; }
 
 .post-meta { color: rgba(255, 255, 255, 0.38); }
 
-.post-content p, .post-content li { color: rgba(255, 255, 255, 0.69); }
+.post-content p, .post-content li { color: rgba(255, 255, 255, 0.9); }
 
 .btn { background-color: #0e1a25 !important; color: rgba(255, 255, 255, 0.9) !important; border-color: #25303a !important; }
 
