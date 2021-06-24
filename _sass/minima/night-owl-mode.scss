@@ -6,10 +6,10 @@ $high-emph: rgba(white, 0.87);
 $med-emph: rgba(white, 0.69); 
 $low-emph: rgba(white, 0.38);
 
-//$overlay: mix($base-bg-color, white, 95%);
-//$overlay-light: mix($base-bg-color, white, 86%);
-$overlay: $low-emph;
-$overlay-light: mix($base-bg-color, white, 95%);
+$overlay: mix($base-bg-color, white, 95%);
+$overlay-light: mix($base-bg-color, white, 86%);
+//$overlay: $low-emph;
+//$overlay-light: mix($base-bg-color, white, 95%);
 
 // Background
 html, body, input, textarea, select, button {   
