@@ -2,7 +2,7 @@
 // Color definitions
 $base-bg-color : #010E1A;
 
-$high-emph: rgba(white, 0.87);
+$high-emph: rgba(white, 0.90);
 $med-emph: rgba(white, 0.69); 
 $low-emph: rgba(white, 0.38);
 
@@ -29,7 +29,7 @@ a:hover {
 // I think this controls the post body text?
 .post-content p, .post-content li {
     font-size: 20px;
-    color: $med-emph;
+    color: $high-emph;
  }
 
 // Navbar colors
