@@ -29,7 +29,7 @@
   
       ,"page1": {
           "title": "About Me",
-          "content": "I am an (incoming) first-year applied mathematics PhD student at Dartmouth College, originally from Dallas. I like learning about computational methods for solving (inverse) problems and quantifying uncertainty. Open-source + science is pretty neat too, so I sometimes write about this here. . I can be reached by email at jonathan@lindbloom.com. . This website is powered by fastpages1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
+          "content": "I am an (incoming) first-year applied mathematics PhD student at Dartmouth College, originally from Dallas. I like learning about computational methods for solving (inverse) problems and quantifying uncertainty. Open-source + science is pretty neat too, so I sometimes write about this here. . . I can be reached by email at jonathan@lindbloom.com. . This website is powered by fastpages1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
           "url": "https://jlindbloom.github.io/qed404/about/",
           "relUrl": "/about/",
           "date": ""
