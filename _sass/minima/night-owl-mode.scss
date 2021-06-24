@@ -26,6 +26,11 @@ a:hover {
     color:$high-emph !important;
 }
 
+// I think this controls the post body text?
+.post-content p, .post-content li {
+    font-size: 20px;
+    color: $med-emph;
+ }
 
 // Navbar colors
 .site-title, .site-title:visited, .site-nav, .page-link {
