@@ -4,7 +4,19 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+I am an (incoming) first-year applied mathematics PhD student at Dartmouth College, originally from Dallas. I like learning about computational methods for solving (inverse) problems and quantifying uncertainty. Open-source + science is pretty neat too, so I sometimes write about this here.
+
+
+
+
+
+
+
+
+I can be reached by email at `jonathan@lindbloom.com`.
+
+
+This website is powered by **[fastpages](https://github.com/fastai/fastpages)**[^1].
 
 
 
