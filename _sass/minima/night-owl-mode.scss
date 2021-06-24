@@ -15,6 +15,7 @@ $overlay-light: mix($base-bg-color, white, 86%);
 html, body, input, textarea, select, button {   
     color: $high-emph !important;
     background-color: $base-bg-color !important;
+    font-family: Menlo, Monaco, Consolas, "Lucida Console", Roboto, Ubuntu, monospace;
   }
 
 // Controls hyperlinks I think?
@@ -31,6 +32,11 @@ a:hover {
 //     font-size: 20px;
 //     color: $high-emph;
 //  }
+
+// Social Links
+.social-links { 
+    color: $high-emph
+}
 
 // Navbar colors
 .site-title, .site-title:visited, .site-nav, .page-link {
