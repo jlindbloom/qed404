@@ -7,7 +7,7 @@ permalink: /about/
 I am an incoming first-year applied mathematics PhD student at Dartmouth College, originally from Dallas. I like learning about computational methods for solving (inverse) problems and quantifying uncertainty. Open-source + science is pretty neat too, so I sometimes write about this here.
 
 
-![]({{site.baseurl}}/images/transport.gif "A gradient flow between two point clouds. Made with `geomloss`, `matplotlib`, `imageio`, and `pygifsicle`.")
+![transport_point_cloud]({{site.baseurl}}/images/transport.gif "A gradient flow between two point clouds. Made with `geomloss`, `matplotlib`, `imageio`, and `pygifsicle`.")
 
 
 

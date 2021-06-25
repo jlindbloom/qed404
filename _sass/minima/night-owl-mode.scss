@@ -114,6 +114,13 @@ li .post-meta-description {
     color: $med-emph !important;
 }
 
+
+img[alt=transport_point_cloud] {
+    width: 50%;
+    border: none;
+    background: none;
+  }
+
 // .site-header {
 //     background-color: $header-bg-color;
     
