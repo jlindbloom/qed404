@@ -463,6 +463,8 @@ canvas { filter: invert(100%); }
 
 li .post-meta-description { color: rgba(255, 255, 255, 0.69) !important; }
 
+img[alt=transport_point_cloud] { width: 50%; border: none; background: none; }
+
 /*   THESE ARE MY NEW COLOR DEFINITIONS BELOW            */
 /* END NEW COLOR DEFINITIONS */
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
