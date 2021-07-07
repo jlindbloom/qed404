@@ -11,12 +11,18 @@ $overlay-light: mix($base-bg-color, white, 86%);
 //$overlay: $low-emph;
 //$overlay-light: mix($base-bg-color, white, 95%);
 
+.output_wrapper{
+    overflow: scroll;
+  }
+
+
 // Background
 html, body, input, textarea, select, button {   
     color: $high-emph !important;
     background-color: $base-bg-color !important;
     font-family: Menlo, Monaco, Consolas, "Lucida Console", Roboto, Ubuntu, monospace;
   }
+
 
 // Controls hyperlinks I think?
 a {
