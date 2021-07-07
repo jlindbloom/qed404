@@ -425,6 +425,8 @@ pre code { font-size: 15px !important; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
+.output_wrapper { overflow: scroll; }
+
 html, body, input, textarea, select, button { color: rgba(255, 255, 255, 0.9) !important; background-color: #010E1A !important; font-family: Menlo, Monaco, Consolas, "Lucida Console", Roboto, Ubuntu, monospace; }
 
 a { color: #4bbaff !important; }
