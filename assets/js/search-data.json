@@ -1,11 +1,22 @@
 {
   
+    
+        "post0": {
+            "title": "Accelerated ODE Inference with PyDEns and PyMC3",
+            "content": "Traditional Approaches . As a newcommer to the PyMC3 community about a year ago, one of the things I was most excited to learn about was using PyMC3 to perform Bayesian inference for systems of ordinary differential equations (ODEs). In order to take advantage of the efficiency of the NUTS sampler you must be able to provide gradients of the model with respect to each of the model parameters, which can be tricky for ODEs. In my experiences, there seems to be four approaches to achieving this: . Write an ODE solver entirely in Theano which automatically gives you ability to get gradients via autodiff. This might seem like the easiest way to get the gradients, but you lose the confidence provided by well-tested solvers and it is hard to control the errors in the calculated gradients. | Use an ODE solver coupled with the adjoint method to get the gradients by solving an associated system of ODEs. This is what is done in the package sunode. | Use an ODE solver coupled with local sensitivity analysis to get the gradients by solving an augmented system of ODEs. This is the approach taken in the PyMC3 example on the Lotka-Volterra model with manual gradients. | If you&#39;re lucky enough to know the analytic formula for the solution of your ODE, it would be easy enough to calculate the gradients exactly and pass those directly to the NUTS sampler. | The table below summarizes the advantages and disadvantages of these approaches. There is an additional disadvantage to the methods listed above (except #4), namely that the solution and gradients at any point in time involves computing the solution and gradients at some (possibly long) sequence of times leading up the desired time. This can be wasteful, particularly if our data observations are sparse in time. The goal of this post is to introduce a new and exciting alternative the methods above. . An Outline of the New Approach . The &quot;New&quot; approach involves an expensive offline step that then permits ultra-fast online ODE evaluations. By offline, I mean that we can offload the computational expense associated with approximating the ODE solution independently of any data associated with our system that we will observe. This offline step will likely be more costly than if we were to just approximate the ODE solution with some traditional solver, but the point is that the cost of this offline method will allow us to query solutions of the ODE ridiculously fast when we move online to perform inference with an MCMC algorithm. . This approach will also allow us to circumvent the aforementioned burden of having to compute solutions and gradients for all intermediary time points leading up to the times of our observations. . So, how .",
+            "url": "https://jlindbloom.github.io/qed404/2021/01/01/ode-inference-with-pydens-and-pymc3.html",
+            "relUrl": "/2021/01/01/ode-inference-with-pydens-and-pymc3.html",
+            "date": " • Jan 1, 2021"
+        }
+        
+    
+  
 
   
   
 
   
-      "page1": {
+      ,"page1": {
           "title": "About Me",
           "content": "I am an incoming first-year applied mathematics PhD student at Dartmouth College, originally from Dallas. I like learning about computational methods for solving (inverse) problems and quantifying uncertainty. Open-source + science is pretty neat too, so sometimes I write about this here. . . I can be reached by email at mailto. . This website is powered by fastpages1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
           "url": "https://jlindbloom.github.io/qed404/about/",
