@@ -20,7 +20,10 @@ $overlay-light: mix($base-bg-color, white, 86%);
 html, body, input, textarea, select, button {   
     color: $high-emph !important;
     background-color: $base-bg-color !important;
-    font-family: Menlo, Monaco, Consolas, "Lucida Console", Roboto, Ubuntu, monospace;
+    //font-family: Menlo, Monaco, Consolas, "Lucida Console", Roboto, Ubuntu, monospace;
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont
+        'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+        'Droid Sans', 'Helvetica Neue', sans-serif;
   }
 
 
