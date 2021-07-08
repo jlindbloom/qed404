@@ -11,11 +11,7 @@ I am an incoming first-year applied mathematics PhD student at Dartmouth College
 
 
 
-I can be reached by email at [mailto](mailto:jonathan@lindbloom.com).
+I can be reached by email at [jonathan@lindbloom.com](mailto:jonathan@lindbloom.com).
 
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)**[^1].
-
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+This website is powered by [fastpages](https://github.com/fastai/fastpages) and 
